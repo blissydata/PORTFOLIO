@@ -1,32 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Blissy Data</title>
   <meta charset="UTF-8">
+  <title>Blessing Daniel | Data Analyst</title>
   <style>
-    body {font-family: Arial; max-width: 900px; margin: 40px auto; padding: 20px; line-height: 1.6;}
-    h1 {color: #0366d6; font-size: 40px; text-align: center; margin-bottom: 30px;}
-    .wrap {display: flex; gap: 40px; align-items: flex-start;}
-    img {width: 250px; border-radius: 10px;}
-    h2 {color: #0366d6; margin-top: 25px;}
-    ul {padding-left: 20px;}
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .left {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    .right {
+      flex: 2;
+      min-width: 300px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #eee;
+    }
+    h1, h2 { color: #2c3e50; }
+    h1 { font-size: 32px; margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; }
+    li {
+      margin-bottom: 10px;
+    }
+    li:before {
+      content: "✓ ";
+      color: #27ae60;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>Blissy Data</h1>
-  <div class="wrap">
-    <img src="my_profile_img.jpg" alt="Blissy Data">
-    <div>
+  <div class="container">
+    <div class="left">
+      <img src="my_profile_img.jpg" alt="Blessing Daniel">
+      <h1>Blessing Daniel</h1>
+      <p>Data Analyst</p>
+      <p><a href="https://github.com/blissydata" target="_blank">View My Projects on GitHub</a></p>
+    </div>
+    
+    <div class="right">
       <h2>ABOUT ME</h2>
-      <p>Hello, I'm Blissy Data, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.</p>
+      <p>Hello, I'm Blessing Daniel, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.</p>
       
       <h2>WHAT I DO</h2>
       <ul>
-        <li>✅ Analyze and interpret data to uncover insights</li>
-        <li>✅ Build interactive dashboards using Power BI and Excel</li>
-        <li>✅ Query and manage data using SQL</li>
-        <li>✅ Perform data cleaning and analysis with Python</li>
-        <li>✅ Support and mentor fellow learners in data analytics</li>
+        <li>Analyze and interpret data to uncover insights</li>
+        <li>Build interactive dashboards using Power BI and Excel</li>
+        <li>Query and manage data using SQL</li>
+        <li>Perform data cleaning and analysis with Python</li>
+        <li>Support and mentor fellow learners in data analytics</li>
       </ul>
       
       <h2>TOOLS</h2>
@@ -35,3 +80,6 @@
   </div>
 </body>
 </html>
+
+       
+
