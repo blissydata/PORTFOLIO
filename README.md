@@ -1,14 +1,16 @@
-<h1 align="center">Blissy Data</h1>
+# Blissy Data
 
-<p align="center">
-  <img src="my_profile_img.jpg" alt="Blissy Data" width="250" height="250" style="border-radius: 10px;"/>
-</p>
+![Blissy Data](my_profile_img.jpg)
 
-<h2>ABOUT ME</h2>
+## ABOUT ME
+Hello, I'm Blissy Data, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.
 
-Hello, I'm Blissy Data, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills. I also enjoy supporting and mentoring fellow learners, helping them grow in their data analytics journey. I am committed to leveraging data to solve real-world problems and contribute to informed decision-making.
+## WHAT I DO
+- ✅ Analyze and interpret data to uncover insights
+- ✅ Build interactive dashboards using Power BI and Excel  
+- ✅ Query and manage data using SQL
+- ✅ Perform data cleaning and analysis with Python
+- ✅ Support and mentor fellow learners in data analytics
 
-<h2>WHAT I DO</h2>
-
-✅ Analyze and interpret data to uncover insights.<br>
-✅ Build interactive dashboards u…
+## TOOLS
+Excel | Power BI | SQL | Python
