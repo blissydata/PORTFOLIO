@@ -3,7 +3,7 @@
 ![Blissy Data](my_profile_img.jpg)
 
 ## ABOUT ME
-Hello, I'm Blissy Data, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.
+Hello, I'm Blessing Daniel, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.
 
 ## WHAT I DO
 - ✅ Analyze and interpret data to uncover insights
