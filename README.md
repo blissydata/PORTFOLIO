@@ -1,1 +1,1 @@
-![IMG-20251122-WA0000.jpg]
+![My photo](IMG-20251122-WA0000.jpg)
