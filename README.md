@@ -1,16 +1,42 @@
-# Blissy Data
+# Blessing Daniel
+### Data Analyst | Enugu, Nigeria
 
-![Blissy Data](my_profile_img.jpg)
+![Blessing Daniel](my_profile_img.jpg)
 
-## ABOUT ME
-Hello, I'm Blessing Daniel, an aspiring Data Analyst passionate about transforming data into meaningful insights and actionable solutions. Through hands-on projects and continuous learning, I have developed strong analytical, problem-solving, and reporting skills.
+**[View Project on GitHub](https://github.com/blissydata/PORTFOLIO)**
 
-## WHAT I DO
-- ✅ Analyze and interpret data to uncover insights
-- ✅ Build interactive dashboards using Power BI and Excel  
-- ✅ Query and manage data using SQL
-- ✅ Perform data cleaning and analysis with Python
-- ✅ Support and mentor fellow learners in data analytics
+---
 
-## TOOLS
-Excel | Power BI | SQL | Python
+### ABOUT ME
+Hello, I'm Blessing Daniel, a detail-oriented Data Analyst, Nigeria. I'm passionate about turning raw data into clear insights that drive smart business decisions. I enjoy working with Excel, SQL, and Power BI to clean data, build dashboards, and tell stories with numbers. Through personal projects and continuous learning, I’ve built strong skills in data cleaning, visualization, and reporting. My goal is to use data to solve real problems and help organizations make confident, data-driven decisions.
+
+### WHAT I DO
+- Analyze and interpret data to uncover trends and patterns
+- Build interactive dashboards and reports in Power BI & Excel
+- Write SQL queries to extract and manage data
+- Use Python for data manipulation and analysis
+- Create clear visualizations that make data easy to understand
+
+### TOOLS & SKILLS
+Microsoft Excel Power BI SQL Python GitHub
+
+### MY PROJECTS
+
+#### 1. STARTUP GROWTH INSIGHTS
+Analyzed user acquisition, retention, and revenue data to identify key growth drivers. Built interactive Power BI dashboard showing monthly growth trends, churn rate, and customer lifetime value.
+*Tools:* Power BI, Excel
+
+#### 2. Nigeria FMCG Sales Performance Dashboard
+Cleaned and analyzed Nigerian sales data using Excel and SQL. Created dashboard to track monthly revenue, top-performing products, and regional sales performance across Nigeria.
+*Tools:* Excel, SQL
+
+#### 3. BEVERAGE SALES PERFORMANCE
+Evaluated beverage sales data to identify seasonal trends and best-selling products. Developed Excel dashboard with KPIs for revenue, profit margin, and inventory turnover.
+*Tools:* Microsoft Excel
+
+---
+
+### LET'S CONNECT
+I'm open to data analysis roles, internships, and freelance projects.  
+📧 Email: your-email@gmail.com  
+💼 LinkedIn:
