@@ -3,139 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABOUT ME | Blessing Daniel</title>
+  <title>Blessing Daniel - Data Analyst Portfolio</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 50px 20px;
-      background: #fff;
-      color: #444;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      gap: 50px;
-      align-items: flex-start;
-    }
-    .left {
-      width: 250px;
-      text-align: center;
-      flex-shrink: 0;
-    }
-    .right {
-      flex: 1;
-    }
-    h1 {
-      color: #1e6bb8;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      font-size: 18px;
-      margin-top: 30px;
-      margin-bottom: 15px;
-      color: #333;
-    }
-    img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
-    }
-    .subtitle {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 5px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    li {
-      margin-bottom: 12px;
-      font-size: 15px;
-      line-height: 1.5;
-    }
-    li::before {
-      content: "✓";
-      color: #28a745;
-      font-weight: bold;
-      margin-right: 8px;
-    }
-    p {
-      font-size: 15px;
-      line-height: 1.7;
-      margin: 0 0 15px 0;
-    }
-    .github-link {
-      font-size: 13px;
-      color: #1e6bb8;
-      text-decoration: none;
-      display: block;
-      margin-top: 10px;
-    }
-    .github-link:hover {
-      text-decoration: underline;
-    }
-    @media (max-width: 700px) {
-      .container {
-        flex-direction: column;
-        align-items: center;
-      }
-      .left {
-        width: 100%;
-      }
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 40px; background: #f5f5f5; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 10px; }
+    .top { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+    .photo img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid #0073e6; }
+    h1 { color: #0073e6; margin: 0; }
+    h2 { color: #333; margin-top: 30px; border-bottom: 2px solid #0073e6; padding-bottom: 5px; }
+    .skills span { background: #e6f3ff; padding: 5px 12px; border-radius: 15px; margin-right: 8px; display: inline-block; margin-top: 5px; }
+    .check { color: green; font-weight: bold; }
+    a { color: #0073e6; text-decoration: none; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="left">
-      <img src="my_profile_img.jpg" alt="Blessing Daniel">
-      <h1>Blessing Daniel</h1>
-      <div class="subtitle">Data Analyst</div>
-      <a href="https://github.com/blissydata/PORTFOLIO" target="_blank" class="github-link">View the Project on GitHub</a>
+    <div class="top">
+      <div class="photo">
+        <img src="my_profile_img.jpg" alt="Blessing Daniel">
+      </div>
+      <div class="intro">
+        <h1>Blessing Daniel</h1>
+        <h3>Data Analyst | Enugu, Nigeria</h3>
+        <p><a href="https://github.com/blissydata/PORTFOLIO" target="_blank">View GitHub</a></p>
+      </div>
     </div>
-    
-    <div class="right">
-      <h2>ABOUT ME</h2>
-      <p>Hello, I'm Blessing Daniel, a detail-oriented Data Analyst. I'm passionate about turning raw data into clear insights that drive smart business decisions. I enjoy working with Excel, SQL, and Power BI to clean data, build dashboards, and tell stories with numbers. Through personal projects and continuous learning, I’ve built strong skills in data cleaning, visualization, and reporting. I also love helping others in the data community grow by sharing resources and insights. My goal is to use data to solve real problems and help organizations make confident, data-driven decisions.</p>
-      
-      <h2>WHAT I DO</h2>
-      <ul>
-        <li>Clean and analyze datasets to uncover trends and patterns</li>
-        <li>Build interactive dashboards and reports in Power BI & Excel</li>
-        <li>Write SQL queries to extract and manage data</li>
-        <li>Use Python for data manipulation and analysis</li>
-        <li>Create clear visualizations that make data easy to understand</li>
-      </ul>
-      
-      <h2>TOOLS</h2>
-      <p>Microsoft Excel | Power BI | SQL | Python | GitHub</p>
-      
-      <h2>MY PROJECTS</h2>
-      <ul>
-        <li><strong>STARTUP GROWTH INSIGHTS</strong> - Analyzed user acquisition, retention, and revenue data to identify key growth drivers. Built interactive Power BI dashboard showing monthly growth trends, churn rate, and customer lifetime value.</li>
-        
-        <li><strong>Nigeria FMCG Sales Performance Dashboard</strong> - Cleaned and analyzed Nigerian sales data using Excel and SQL. Created dashboard to track monthly revenue, top-performing products, and regional sales performance across Nigeria.</li>
-        
-        <li><strong>BEVERAGE SALES PERFORMANCE</strong> - Evaluated beverage sales data to identify seasonal trends and best-selling products. Developed Excel dashboard with KPIs for revenue, profit margin, and inventory turnover.</li>
-      </ul>
+
+    <h2>ABOUT ME</h2>
+    <p>Hello, I'm Blessing Daniel, a detail-oriented Data Analyst, Nigeria. I'm passionate about turning raw data into clear insights that drive smart business decisions. I enjoy working with Excel, SQL, and Power BI to clean data, build dashboards, and tell stories with numbers. Through personal learning and practice, I’ve built strong skills in data cleaning, visualization, and reporting. My goal is to use data to solve real problems and help organizations make confident, data-driven decisions.</p>
+
+    <h2>WHAT I DO</h2>
+    <p><span class="check">✓</span> Analyze and interpret data to uncover trends and patterns</p>
+    <p><span class="check">✓</span> Build interactive dashboards and reports in Power BI & Excel</p>
+    <p><span class="check">✓</span> Write SQL queries to extract and manage data</p>
+    <p><span class="check">✓</span> Use Python for data manipulation and analysis</p>
+    <p><span class="check">✓</span> Create clear visualizations that make data easy to understand</p>
+
+    <h2>TOOLS & SKILLS</h2>
+    <div class="skills">
+      <span>Microsoft Excel</span>
+      <span>Power BI</span>
+      <span>SQL</span>
+      <span>Python</span>
+      <span>GitHub</span>
     </div>
+
+    <h2>LET'S CONNECT</h2>
+    <p>I'm open to data analysis roles, internships, and freelance projects.</p>
+    <p>📧 Email: danielblessing936@gmail.com | 💼 LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
   </div>
 </body>
 </html>
-  
- 
-     
-   
-   
-     
-   
    
    
 
