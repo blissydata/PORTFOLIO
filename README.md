@@ -1,5 +1,5 @@
 # Blessing Daniel
-### Data Analyst | Enugu, Nigeria
+### Data Analyst | Nigeria
 
 ![Blessing Daniel](my_profile_img.jpg)
 
