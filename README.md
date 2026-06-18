@@ -21,6 +21,6 @@ Hello, I am Blessing Daniel, a detail-oriented Data Analyst, Nigeria. I'm passio
 Microsoft Excel Power BI SQL Python GitHub
 
 ### MY PROJECTS
-
+us-retail-sales-dashboard.jpg
 
 
