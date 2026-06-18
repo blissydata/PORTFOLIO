@@ -1,197 +1,49 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessing Daniel | Data Analyst Portfolio</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #0a0e1a;
-            color: #e2e8f0;
-            line-height: 1.7;
-        }
-        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-        
-        header {
-            text-align: center;
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #1e293b 0%, #0a0e1a 100%);
-            border-bottom: 3px solid #38bdf8;
-        }
-        h1 { font-size: 3.5rem; color: #38bdf8; margin-bottom: 15px; font-weight: 700; }
-        .subtitle { font-size: 1.3rem; color: #94a3b8; margin-bottom: 25px; }
-        .contact a {
-            color: #38bdf8;
-            text-decoration: none;
-            margin: 0 20px;
-            font-weight: 600;
-            font-size: 1.1rem;
-            border-bottom: 2px solid transparent;
-            transition: 0.3s;
-        }
-        .contact a:hover { border-bottom: 2px solid #38bdf8; }
-        
-        section { margin: 80px 0; }
-        h2 {
-            font-size: 2.5rem;
-            color: #38bdf8;
-            margin-bottom: 40px;
-            border-left: 5px solid #38bdf8;
-            padding-left: 20px;
-        }
-        
-        .dashboard {
-            background: #1e293b;
-            border-radius: 16px;
-            padding: 40px;
-            margin-bottom: 60px;
-            border: 1px solid #334155;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
-            transition: transform 0.3s;
-        }
-        .dashboard:hover { transform: translateY(-5px); }
-        .dashboard img {
-            width: 100%;
-            border-radius: 10px;
-            margin: 25px 0;
-            border: 3px solid #334155;
-        }
-        h3 { color: #f8fafc; font-size: 1.8rem; margin-bottom: 20px; }
-        
-        .tags {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
-        .tag {
-            background: #334155;
-            padding: 8px 16px;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            color: #cbd5e1;
-            font-weight: 500;
-        }
-        
-        .writeup {
-            margin: 25px 0;
-        }
-        .writeup p {
-            margin: 15px 0;
-            font-size: 1.05rem;
-        }
-        .writeup strong { color: #38bdf8; }
-        
-        .insights {
-            list-style: none;
-            margin: 20px 0;
-            background: #0f172a;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 4px solid #38bdf8;
-        }
-        .insights li {
-            padding: 12px 0;
-            border-bottom: 1px solid #334155;
-            font-size: 1.05rem;
-        }
-        .insights li:last-child { border-bottom: none; }
-        .insights li:before {
-            content: "✓ ";
-            color: #22c55e;
-            font-weight: bold;
-            margin-right: 10px;
-            font-size: 1.2rem;
-        }
-        
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-        .skill-card {
-            background: #1e293b;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid #334155;
-            text-align: center;
-        }
-        .skill-card h3 { color: #38bdf8; margin-bottom: 15px; }
-        
-        footer {
-            text-align: center;
-            padding: 50px 20px;
-            margin-top: 80px;
-            border-top: 2px solid #334155;
-            color: #94a3b8;
-        }
-        
-        @media (max-width: 768px) {
-            h1 { font-size: 2.2rem; }
-            h2 { font-size: 1.8rem; }
-            .container { padding: 20px 15px; }
-            .dashboard { padding: 25px; }
-            .contact a { display: block; margin: 10px 0; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blessing Daniel - Data Analyst Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 40px; background: #f5f5f5; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 10px; }
+    .top { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+    .photo img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid #0073e6; }
+    h1 { color: #0073e6; margin: 0; }
+    h2 { color: #333; margin-top: 30px; border-bottom: 2px solid #0073e6; padding-bottom: 5px; }
+    .skills span { background: #e6f3ff; padding: 5px 12px; border-radius: 15px; margin-right: 8px; display: inline-block; margin-top: 5px; }
+    .check { color: green; font-weight: bold; }
+    a { color: #0073e6; text-decoration: none; }
+  </style>
 </head>
 <body>
-    <header>
+  <div class="container">
+    <div class="top">
+      <div class="photo">
+        <img src="my_profile_img.jpg" alt="Blessing Daniel">
+      </div>
+      <div class="intro">
         <h1>Blessing Daniel</h1>
-        <p class="subtitle">Data Analyst | Power BI • Excel • SQL • Python</p>
-        <p class="subtitle">Akwa ibom, Nigeria</p>
-        <div class="contact">
-            <a href="mailto:your.email@gmail.com">Email Me</a>
-            <a href="YOUR-LINKEDIN-URL" target="_blank">LinkedIn</a>
-            <a href="https://github.com/blissydata/PORTFOLIO" target="_blank">GitHub Repo</a>
-        </div>
-    </header>
+        <h3>Data Analyst | Enugu, Nigeria</h3>
+        <p><a href="https://github.com/blissydata/PORTFOLIO" target="_blank">View GitHub</a></p>
+      </div>
+    </div>
 
-    <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p style="font-size: 1.15rem;">I’m a data analyst who transforms raw data into decisions. I specialize in building interactive Power BI dashboards and Excel models that help businesses track KPIs, spot trends, and optimize revenue. Based in Nigeria, I work with sales, financial, and operational data to deliver insights that matter.</p>
-        </section>
+    <h2>ABOUT ME</h2>
+    <p>Hello, I'm Blessing Daniel, a detail-oriented Data Analyst based in  Nigeria. I'm passionate about turning raw data into clear insights that drive smart business decisions. I enjoy working with Excel, SQL, and Power BI to clean data, build dashboards, and tell stories with numbers. Through personal learning and practice, I’ve built strong skills in data cleaning, visualization, and reporting. My goal is to use data to solve real problems and help organizations make confident, data-driven decisions.</p>
 
-        <section>
-            <h2>Featured Projects</h2>
+    <h2>WHAT I DO</h2>
+    <p><span class="check">✓</span> Analyze and interpret data to uncover trends and patterns</p>
+    <p><span class="check">✓</span> Build interactive dashboards and reports in Power BI & Excel</p>
+    <p><span class="check">✓</span> Write SQL queries to extract and manage data</p>
+    <p><span class="check">✓</span> Use Python for data manipulation and analysis</p>
+    <p><span class="check">✓</span> Create clear visualizations that make data easy to understand</p>
 
-            <!-- PROJECT 1 -->
-            <div class="dashboard">
-                <h3>US Retail Sales Performance Dashboard</h3>
-                <img src="us-retail-sales-dashboard.jpg" alt="US Retail Sales Dashboard">
-                <div class="tags">
-                    <span class="tag">Power BI</span>
-                    <span class="tag">Excel</span>
-                    <span class="tag">17M+ Records</span>
-                    <span class="tag">$867.58M Sales</span>
-                    <span class="tag">50 States</span>
-                </div>
-                <div class="writeup">
-                    <p><strong>Problem:</strong> A US retail chain lacked real-time visibility into product, retailer, and regional performance across 50 states. Decisions were based on static spreadsheets.</p>
-                    <p><strong>Solution:</strong> Cleaned and modeled 17M+ transaction records in Power Query. Built star schema data model linking Sales, Products, Retailers, and Date tables. Created interactive KPIs and drill-down slicers for executive reporting.</p>
-                    <p><strong>Tools Used:</strong> Power BI Desktop, Power Query, DAX, Excel for data prep</p>
-                </div>
-                <ul class="insights">
-                    <li><strong>Retailer Risk:</strong> One Sports controls 62.93% of units sold - identified single point of dependency</li>
-                    <li><strong>Seasonality:</strong> December sales spike 3x vs January - clear inventory planning opportunity</li>
-                    <li><strong>Pareto Analysis:</strong> Top 20% products drive 80% of revenue - promo budget optimization</li>
-                    <li><strong>Scale:</strong> Dashboard monitors …
-
-    
-  
-   
-  
-    
-   
-      
-      
-     
-
-
-
-       
-
+    <h2>TOOLS & SKILLS</h2>
+    <div class="skills">
+      <span>Microsoft Excel</span>
+      <span>Power BI</span>
+      <span>SQL</span>
+      <span>Python</span>
+      <span>GitHub</span>
+    </div>
